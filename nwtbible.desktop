@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NWTBible
+Icon=nwtbible
+Exec=/usr/bin/nwtbible
+Categories=Religion;

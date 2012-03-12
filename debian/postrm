@@ -1,0 +1,9 @@
+#!/bin/sh
+
+
+if [ "x$1" = "xupgrade" ]; then
+    echo "NWTBible: This is upgrade, leaving cache"
+else
+    echo "NWTBible: package was removed, deleting cache"
+    rm -rf /home/user/.nwtbible/cache.sqlite
+fi

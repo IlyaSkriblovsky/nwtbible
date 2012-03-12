@@ -1,0 +1,77 @@
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 26px;
+
+    line-height: 1.3em;
+}
+
+a.vsAnchor
+{
+    vertical-align: super;
+    font-weight: bold;
+    font-size: 80%;
+
+    line-height: 0;
+}
+
+span.found
+{
+    background: #90ff90;
+}
+
+
+p.z
+{
+    margin-left: 22px;
+}
+
+/* From http://watchtower.org/css/bible.css */
+
+.w {
+	font-size: 80%;
+}
+span.l {
+	margin-left: 0;
+}
+span.p {
+	margin-left: 20px; 
+}
+/* second part poetic verse, additional indentation */
+span.z { 
+	margin-left: 40px;
+}
+/* first part poetic verse */
+p.l, 
+p.p {
+	text-indent: -85px;
+	margin-left: 85px;
+}
+/* second line(s) of poetic verse flush with p.p */
+p.l span.p {
+	margin-left: -26px;
+}
+p.l span.z,
+p.p span.z {
+	margin-left: -25px;
+}
+p.p span.p {
+	margin-left: -45px;
+}
+/* Big chapter number for John 7 and 8 */
+p.initcap:first-letter {
+	float: left;
+	font-weight:bold;
+	font-size: 3em;
+	line-height: 83%;
+	padding-right: 5px;
+}
+/* text that appears in smaller type */
+.small, .postscript {
+	font-size: 80%;
+}
+/* used in Hab, Mal, Mark 16, John 7, John 8 */
+.postscript {
+	margin-top: 2em;
+	text-align: center;
+}

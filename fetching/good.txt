@@ -1,0 +1,40 @@
+Afrikaans,Afrikaans,af,/af/bybel/
+Bulgarian,Български,bl,/bl/bible/
+Czech,Česky,b,/b/bible/
+Chinese (Traditional),漢語（繁體字）,ch,/ch/bible/
+Chinese (Simplified),汉语（简化字）,chs,/chs/bible/
+Danish,Dansk,d,/d/bibelen/
+English,English,e,/e/bible/
+French,Français,f,/f/bible/
+Finnish,Suomi,fi,/fi/raamattu/
+Greek,Ελληνική,g,/g/bible/
+Italian,Italiano,i,/i/bibbia/
+Indonesian,Bahasa Indonesia,in,/in/alkitab/
+Japanese,日本語,j,/j/bible/
+Korean,한국어,ko,/ko/bible/
+Malagasy,Malagasy,mg,/mg/baiboly/
+Norwegian,Norsk,n,/n/bibelen/
+Dutch,Nederlands,o,/o/bijbel/
+Polish,Polski,p,/p/biblia/
+Spanish,Español,s,/s/biblia/
+Swahili,Kiswahili,sw,/sw/biblia/
+Portuguese,Português,t,/t/biblia/
+Russian,Русский,u,/u/bible/
+German,Deutsch,x,/x/bibel/
+Xhosa,IsiXhosa,xo,/xo/ibhayibhile/
+Swedish,Svenska,z,/z/bibeln/
+Albanian,Shqip,al,/al/bible/
+Croatian,Hrvatski,c,/c/biblija/
+Chichewa,Chichewa,cn,/cn/baibulo/
+Cibemba,Cibemba,cw,/cw/baibolo/
+Ossetian,Иронау,oss,/oss/bible/
+Georgian,ქართული,ge,/ge/bible/
+Hungarian,Magyar,h,/h/biblia/
+Lingala,Lingala,li,/li/biblia/
+Romanian,Română,m,/m/biblia/
+Maltese,Malti,mt,/mt/bibbja/
+Tswana,Setswana,tn,/tn/baebele/
+Serbian,Српски,sb,/sb/bible/
+Sesotho,Sesotho,su,/su/bibele/
+Slovenian,V Slovenščini,sv,/sv/svetopismo/
+Zulu,IsiZulu,zu,/zu/ibhayibheli/
