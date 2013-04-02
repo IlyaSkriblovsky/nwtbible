@@ -45,7 +45,7 @@ public class Fetcher
         var res = session.send_message(message);
         if (res == 200)
         {
-            var content = transform_content((string)message.response_body.data, url, chapter);
+            var content = (string)message.response_body.data; // transform_content((string)message.response_body.data, url, chapter);
             storage.cache_chapter(chapter, content);
             return content;
         }
@@ -94,7 +94,7 @@ public class Fetcher
                         var msg_chapter = url[-7:-4].to_int();
 
                         var chp = Chapter(book, msg_chapter);
-                        var content = transform_content((string)msg.response_body.data, url, chp);
+                        var content = (string)msg.response_body.data; // transform_content((string)msg.response_body.data, url, chp);
                         storage.cache_chapter(chp, content);
 
                         ok = true;
@@ -129,13 +129,20 @@ public class Fetcher
         if (lang == null)
             lang = Languages.instance.current;
 
-        return "http://watchtower.org"
-            + Languages.instance.current.bible_url
-            + chapter.book.code
-            + "/chapter_%03d.htm".printf(chapter.chapter);
+
+        return "http://meebible.org/nwtbible"
+            + "?lang=" + Languages.instance.current.code
+            + "&trans=nwt"
+            + "&book=" + chapter.book.code
+            + "&chapter=" + chapter.chapter.to_string();
+//        return "http://watchtower.org"
+//            + Languages.instance.current.bible_url
+//            + chapter.book.code
+//            + "/chapter_%03d.htm".printf(chapter.chapter);
     }
 
 
+    /*
     string transform_content(string content, string base_url, Chapter chapter)
     {
         char[] utf8 = content.to_utf8();
@@ -223,4 +230,5 @@ public class Fetcher
             child = child->next;
         }
     }
+    */
 }
