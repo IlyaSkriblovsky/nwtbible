@@ -1,3 +1,9 @@
+nwtbible (1.4) unstable; urgency=low
+
+  * Working with meebible.org server
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  2 Apr 2013 12:25:00 +0400
+
 nwtbible (1.3) unstable; urgency=low
 
   * Sorting of bookmarks
